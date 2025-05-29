@@ -18,3 +18,7 @@
 ## 参考プロジェクト
 
 詳細は [REFERENCES.md](REFERENCES.md) を参照してください。
+
+## MCP サーバーの例
+
+詳細は [MCP_SERVERS.md](MCP_SERVERS.md) を参照してください。

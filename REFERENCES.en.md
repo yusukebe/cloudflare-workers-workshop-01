@@ -7,5 +7,5 @@
 
 ## Related Articles
 
-- [Model Context Protocol (MCP) Demo Day](https://blog.cloudflare.com/ja-jp/mcp-demo-day/)
-- [Thirteen new MCP servers from Cloudflare](https://blog.cloudflare.com/ja-jp/thirteen-new-mcp-servers-from-cloudflare/)
+- [MCP Demo Day: How 10 leading AI companies built MCP servers on Cloudflare](https://blog.cloudflare.com/mcp-demo-day/)
+- [Thirteen new MCP servers from Cloudflare you can use today](https://blog.cloudflare.com/thirteen-new-mcp-servers-from-cloudflare/)

@@ -15,3 +15,7 @@ See [WORKSHOP.en.md](WORKSHOP.en.md) for details.
 ## Reference Materials
 
 See [REFERENCES.en.md](REFERENCES.en.md) for details.
+
+## MCP Server Examples
+
+See [MCP_SERVERS.en.md](MCP_SERVERS.en.md) for details.
