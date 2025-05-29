@@ -16,3 +16,4 @@ Cloudflare Workers workshop materials for building remote MCP servers.
 - Structure documents with clear sections and subsections
 - Include practical examples and links where helpful
 - Keep README.md concise and use it as navigation to other files
+- Always create English versions with `.en.md` suffix (e.g., `README.en.md`, `WORKSHOP.en.md`)
