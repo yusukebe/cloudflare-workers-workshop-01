@@ -1,5 +1,8 @@
 # Cloudflare Workers Workshop in Tokyo #1
 
+> [!NOTE]
+> English version is available here: [README.en.md](README.en.md)
+
 - [応募ページ(connpass)](https://workers-tech.connpass.com/event/355900/)
 - 2025 年 6 月 3 日(火) @ サイボウズ 東京オフィス
 - **_Building your Remote MCP on Cloudflare Workers_**
