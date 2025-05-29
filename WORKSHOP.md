@@ -45,6 +45,12 @@ npx @muppet-kit/inspector@latest
 
 ## 4. 自分の MCP サーバーを作る
 
+あなたのアイデアで MCP サーバーを作ってみてください。
+
+もし、アイデアがない場合は、Cloudflare D1 を使った TODO 管理の MCP サーバー作ったので、それを真似してみてください。
+
+https://github.com/yusukebe/todo-mcp-server
+
 ### 基本構造
 
 ```typescript
