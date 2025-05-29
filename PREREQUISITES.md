@@ -19,8 +19,8 @@
 
 以下の記事を参考に自分がどんなリモート MCP サーバーを作りたいか考えてきてください。
 
-- [Model Context Protocol（MCP）Demo Day](https://blog.cloudflare.com/ja-jp/mcp-demo-day/)
-- [Cloudflare から 13 の新しい MCP サーバー](https://blog.cloudflare.com/ja-jp/thirteen-new-mcp-servers-from-cloudflare/)
+- [MCP デモ・デー：先進的な AI 企業 10 社が Cloudflare 上で MCP サーバーを構築した方法](https://blog.cloudflare.com/ja-jp/mcp-demo-day/)
+- [本日からご利用いただける Cloudflare の新 MCP サーバー 13 製品](https://blog.cloudflare.com/ja-jp/thirteen-new-mcp-servers-from-cloudflare/)
 
 自分はこんなのを作りました。
 
