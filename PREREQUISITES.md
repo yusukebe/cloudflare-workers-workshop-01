@@ -21,3 +21,8 @@
 
 - [Model Context Protocol（MCP）Demo Day](https://blog.cloudflare.com/ja-jp/mcp-demo-day/)
 - [Cloudflare から 13 の新しい MCP サーバー](https://blog.cloudflare.com/ja-jp/thirteen-new-mcp-servers-from-cloudflare/)
+
+自分はこんなのを作りました。
+
+- [ramen-api](https://github.com/yusukebe/ramen-api) - [Ramen API](https://github.com/yusukebe/ramen-api)というラーメン屋の登録と取得ができる API を MCP 化したものです。
+- [memo-mcp-server](https://github.com/yusukebe/memo-mcp-server) - 簡単なメモ登録ができて、Cloudflare D1 を使ってメモを保存できるものです。
