@@ -4,9 +4,22 @@
 
 Remote MCP servers are MCP servers accessible over the internet.
 
-### 1-1. Connecting with Claude Desktop
+### Connecting with Claude Desktop
 
-Add to Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json`):
+Open Claude Desktop settings:
+
+```
+macOS: ~/Library/Application Support/Claude/claude_desktop_config.json
+Windows: %APPDATA%\Claude\claude_desktop_config.json
+```
+
+To open with VS Code:
+
+```bash
+code ~/Library/Application\ Support/Claude/claude_desktop_config.json
+```
+
+Add the following:
 
 ```json
 {
@@ -19,7 +32,7 @@ Add to Claude Desktop config (`~/Library/Application Support/Claude/claude_deskt
 }
 ```
 
-### 1-2. Connecting with AI Playground
+### Connecting with AI Playground
 
 Access [Cloudflare AI Playground](https://playground.ai.cloudflare.com/) and enter the URL in the MCP Servers field.
 
@@ -31,7 +44,9 @@ cd my-mcp-server
 npm run dev
 ```
 
-## 3. Testing with MCP Inspector
+## 3. Testing and Verification
+
+### Using MCP Inspector
 
 Used for testing MCP servers during development.
 
@@ -41,6 +56,21 @@ npx @modelcontextprotocol/inspector@latest
 
 # Or Muppet Kit version
 npx @muppet-kit/inspector@latest
+```
+
+### Using Claude Desktop
+
+Add to Claude Desktop settings:
+
+```json
+{
+  "mcpServers": {
+    "cloudflare": {
+      "command": "npx",
+      "args": ["mcp-remote@latest", "http://localhost:8787/mcp"]
+    }
+  }
+}
 ```
 
 ## 4. Building Your Own MCP Server
@@ -84,7 +114,13 @@ export class MyMCP extends McpAgent {
 
 ## 5. Sharing and Testing
 
-Your MCP server is immediately available to others. Remember to clean up resources after the workshop.
+Your created MCP server is immediately available to others. Remember to clean up resources after the workshop.
+
+### Resource Cleanup
+
+```bash
+npx wrangler delete
+```
 
 ## 6. Advanced - MCP Server with Authentication
 
